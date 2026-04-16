@@ -1,0 +1,31 @@
+{
+  "version": "0.9.0",
+  "description": "Qobuz cli player",
+  "homepage": "https://github.com/SofusA/qobuz-player",
+  "license": "GPLv3º",
+  "architecture": {
+    "64bit": {
+      "url": "https://github.com/SofusA/qobuz-player/releases/download/0.9.0/qobuz-player-x86_64-pc-windows-msvc.zip",
+      "hash": "6f8f9a445102107ee3c0a05c8f386bacb32238199ecbc0983b9b06c5ea3d7c5e"
+    },
+    "arm64": {
+      "url": "https://github.com/SofusA/qobuz-player/releases/download/0.9.0/qobuz-player-aarch64-pc-windows-msvc.zip",
+      "hash": "1776bf104277b3fbb3b3e4b481655f492f6df10210e2e00cd94132e66e999bd4"
+    }
+  },
+  "bin": "qobuz-player.exe",
+  "checkver": "github",
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://github.com/SofusA/qobuz-player/releases/download/$version/qobuz-player-x86_64-pc-windows-msvc.zip"
+      },
+      "arm64": {
+        "url": "https://github.com/SofusA/qobuz-player/releases/download/$version/qobuz-player-aarch64-pc-windows-msvc.zip"
+      }
+    },
+    "hash": {
+      "url": "$url.sha256"
+    }
+  }
+}
