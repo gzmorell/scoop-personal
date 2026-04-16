@@ -1,31 +1,31 @@
 {
-  "version": "0.9.0",
-  "description": "Qobuz cli player",
-  "homepage": "https://github.com/SofusA/qobuz-player",
-  "license": "GPLv3º",
-  "architecture": {
-    "64bit": {
-      "url": "https://github.com/SofusA/qobuz-player/releases/download/v0.9.0/qobuz-player-x86_64-pc-windows-msvc.zip",
-      "hash": "71f8fe216b0cf69a87b75c19222a0ab5afe8a4fa848aec47484a4403de300bcc"
-    },
-    "arm64": {
-      "url": "https://github.com/SofusA/qobuz-player/releases/download/v0.9.0/qobuz-player-aarch64-pc-windows-msvc.zip",
-      "hash": "c97467e5b295cc6e029c8352bebc55dadbab838ca0b6c1742235d4ff213e8e37"
-    }
-  },
-  "bin": "qobuz-player.exe",
-  "checkver": "github",
-  "autoupdate": {
+    "version": "0.9.0",
+    "description": "Qobuz cli player",
+    "homepage": "https://github.com/SofusA/qobuz-player",
+    "license": "GPLv3",
     "architecture": {
-      "64bit": {
-        "url": "https://github.com/SofusA/qobuz-player/releases/download/$version/qobuz-player-x86_64-pc-windows-msvc.zip"
-      },
-      "arm64": {
-        "url": "https://github.com/SofusA/qobuz-player/releases/download/$version/qobuz-player-aarch64-pc-windows-msvc.zip"
-      }
+        "64bit": {
+            "url": "https://github.com/SofusA/qobuz-player/releases/download/v0.9.0/qobuz-player-x86_64-pc-windows-msvc.zip",
+            "hash": "71f8fe216b0cf69a87b75c19222a0ab5afe8a4fa848aec47484a4403de300bcc"
+        },
+        "arm64": {
+            "url": "https://github.com/SofusA/qobuz-player/releases/download/v0.9.0/qobuz-player-aarch64-pc-windows-msvc.zip",
+            "hash": "c97467e5b295cc6e029c8352bebc55dadbab838ca0b6c1742235d4ff213e8e37"
+        }
     },
-    "hash": {
-      "url": "$url.sha256"
+    "bin": "qobuz-player.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/SofusA/qobuz-player/releases/download/$version/qobuz-player-x86_64-pc-windows-msvc.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/SofusA/qobuz-player/releases/download/$version/qobuz-player-aarch64-pc-windows-msvc.zip"
+            }
+        },
+        "hash": {
+            "url": "$url.sha256"
+        }
     }
-  }
 }
