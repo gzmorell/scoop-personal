@@ -5,12 +5,12 @@
   "license": "GPLv3º",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/SofusA/qobuz-player/releases/download/0.9.0/qobuz-player-x86_64-pc-windows-msvc.zip",
-      "hash": "6f8f9a445102107ee3c0a05c8f386bacb32238199ecbc0983b9b06c5ea3d7c5e"
+      "url": "https://github.com/SofusA/qobuz-player/releases/download/v0.9.0/qobuz-player-x86_64-pc-windows-msvc.zip",
+      "hash": "71f8fe216b0cf69a87b75c19222a0ab5afe8a4fa848aec47484a4403de300bcc"
     },
     "arm64": {
-      "url": "https://github.com/SofusA/qobuz-player/releases/download/0.9.0/qobuz-player-aarch64-pc-windows-msvc.zip",
-      "hash": "1776bf104277b3fbb3b3e4b481655f492f6df10210e2e00cd94132e66e999bd4"
+      "url": "https://github.com/SofusA/qobuz-player/releases/download/v0.9.0/qobuz-player-aarch64-pc-windows-msvc.zip",
+      "hash": "c97467e5b295cc6e029c8352bebc55dadbab838ca0b6c1742235d4ff213e8e37"
     }
   },
   "bin": "qobuz-player.exe",
