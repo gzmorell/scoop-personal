@@ -10,13 +10,17 @@
     }
   },
   "bin": [
+    "mbclient.exe",
+    "mbserver.exe"
+  ],
+  "shortcuts": [
     [
       "mbclient.exe",
-      "mbclient"
+      "MbClient"
     ],
     [
       "mbserver.exe",
-      "mbserver"
+      "MbServer"
     ]
   ],
   "checkver": "github",
