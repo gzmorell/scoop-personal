@@ -1,28 +1,28 @@
 {
-  "version": "0.10.2",
-  "description": "Qobuz cli player",
-  "homepage": "https://github.com/SofusA/qobine",
-  "license": "GPLv3",
-  "architecture": {
-    "64bit": {
-      "url": "https://github.com/SofusA/qobine/releases/download/v0.10.2/qobuz-player-x86_64-pc-windows-msvc.zip",
-      "hash": "69dc7379f952c09cee72d57626041b2908ab715c6db05d3a919ae0f39fd04afc"
-    },
-    "arm64": {
-      "url": "https://github.com/SofusA/qobine/releases/download/v0.10.2/qobuz-player-aarch64-pc-windows-msvc.zip",
-      "hash": "f52478b4925bfcad0f196b90a00fa615f8692011e340541149e194ffc6c63915"
-    }
-  },
-  "bin": "qobuz-player.exe",
-  "checkver": "github",
-  "autoupdate": {
+    "version": "0.10.2",
+    "description": "Qobuz cli player",
+    "homepage": "https://github.com/SofusA/qobine",
+    "license": "GPLv3",
     "architecture": {
-      "64bit": {
-        "url": "https://github.com/SofusA/qobine/releases/download/v$version/qobuz-player-x86_64-pc-windows-msvc.zip"
-      },
-      "arm64": {
-        "url": "https://github.com/SofusA/qobine/releases/download/v$version/qobuz-player-aarch64-pc-windows-msvc.zip"
-      }
+        "64bit": {
+            "url": "https://github.com/SofusA/qobine/releases/download/v0.10.2/qobuz-player-x86_64-pc-windows-msvc.zip",
+            "hash": "69dc7379f952c09cee72d57626041b2908ab715c6db05d3a919ae0f39fd04afc"
+        },
+        "arm64": {
+            "url": "https://github.com/SofusA/qobine/releases/download/v0.10.2/qobuz-player-aarch64-pc-windows-msvc.zip",
+            "hash": "f52478b4925bfcad0f196b90a00fa615f8692011e340541149e194ffc6c63915"
+        }
+    },
+    "bin": "qobuz-player.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/SofusA/qobine/releases/download/v$version/qobuz-player-x86_64-pc-windows-msvc.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/SofusA/qobine/releases/download/v$version/qobuz-player-aarch64-pc-windows-msvc.zip"
+            }
+        }
     }
-  }
 }
