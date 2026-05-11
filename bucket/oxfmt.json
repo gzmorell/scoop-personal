@@ -13,7 +13,7 @@
             "hash": "5efe0dc702b561089080d1c1decffbf56bdf1d6f301fb8e3c407f782c4d1c73c"
         }
     },
-    "pre_install": "Get-Item \"$dir\\oxlint-*.exe\" | Rename-Item -NewName \"$dir\\oxlint.exe\"",
+    "pre_install": "Get-Item \"$dir\\oxfmt-*.exe\" | Rename-Item -NewName \"$dir\\oxfmt.exe\"",
     "bin": "oxfmt.exe",
     "checkver": {
         "url": "https://api.github.com/repos/oxc-project/oxc/releases",
