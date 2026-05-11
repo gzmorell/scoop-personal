@@ -1,16 +1,16 @@
 {
-    "version": "0.10.2",
+    "version": "2026-05-06",
     "description": "Qobuz web player",
     "homepage": "https://github.com/SofusA/qobine",
     "license": "GPLv3",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/SofusA/qobine/releases/download/v0.10.2/qobuz-player-web-x86_64-pc-windows-msvc.zip",
-            "hash": "11dd9ea686d07457c172bd99fd238dc366c7d8d88ec01cac8d180089e40c7c30"
+            "url": "https://github.com/SofusA/qobine/releases/download/v2026-05-06/qobuz-player-web-x86_64-pc-windows-msvc.zip",
+            "hash": "726af3bc473df29da13516d3bb88f2bdc62847432b89d6309157a062e09528e0"
         },
         "arm64": {
-            "url": "https://github.com/SofusA/qobine/releases/download/v0.10.2/qobuz-player-web-aarch64-pc-windows-msvc.zip",
-            "hash": "02160482c0cace834e4be7c057cee2c67feeeed9812fc8b73d37bee3925066ba"
+            "url": "https://github.com/SofusA/qobine/releases/download/v2026-05-06/qobuz-player-web-aarch64-pc-windows-msvc.zip",
+            "hash": "6be63058063f4247bdde697693c94bfc3a250a9e2a089d84aca0bcef48ede3d0"
         }
     },
     "bin": "qobuz-player-web.exe",
