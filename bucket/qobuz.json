@@ -1,16 +1,16 @@
 {
-    "version": "2026-05-19",
+    "version": "2026-05-30",
     "description": "Qobuz cli player",
     "homepage": "https://github.com/SofusA/qobine",
     "license": "GPLv3",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/SofusA/qobine/releases/download/v2026-05-19/qobuz-player-x86_64-pc-windows-msvc.zip",
-            "hash": "1f69f656aa5b58953aec35c242eb5f5eb7ab24b9af34869dcb941a9529b364de"
+            "url": "https://github.com/SofusA/qobine/releases/download/v2026-05-30/qobuz-player-x86_64-pc-windows-msvc.zip",
+            "hash": "6f5d5840e211f01594ec58eba9f5281da7b329ed02784ec66c62a6d87027182f"
         },
         "arm64": {
-            "url": "https://github.com/SofusA/qobine/releases/download/v2026-05-19/qobuz-player-aarch64-pc-windows-msvc.zip",
-            "hash": "78913952a9300002053b1d00a502e8816633e38bfc0ea1f04f4d2892948f5016"
+            "url": "https://github.com/SofusA/qobine/releases/download/v2026-05-30/qobuz-player-aarch64-pc-windows-msvc.zip",
+            "hash": "bf2cda9cf726b507969ade03d863cb117d4fc7e34b960b37f8f4d2ae915c8b32"
         }
     },
     "bin": "qobuz-player.exe",
